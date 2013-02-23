@@ -2,6 +2,7 @@
 "name": "offpage",
 "version": "0.0.1",
 "dependencies": {
+ "public": "git://github.com/kejun/mobile-ui-lib.git",
  "grunt-contrib-sass": "*",
  "grunt-contrib-jshint": "*",
  "grunt-contrib-watch": "*"
