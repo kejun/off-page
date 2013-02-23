@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="../build/build.css" />
+  <link rel="stylesheet" href="mobile-ui.css" />
+  <style type="text/css">
+  </style>
+</head>
+<body>
+<div class="main-page">
+  <div class="nav-bar">
+    Title 1
+  </div>
+  <div class="bd">
+    <div class="mod">
+      <ul class="list">
+        <li class="item">Item 1</li>
+        <li class="item">Item 1</li>
+        <li class="item">Item 1</li>
+        <li class="item">Item 1</li>
+        <li class="item">Item 1</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div id="page1" class="off-page">
+  <div class="nav-bar">
+    <div class="nav-bar-back">
+      <span class="bn-back">&lt;</span>
+    </div>
+    Title 2
+  </div>
+  <div class="bd">
+    <div class="mod">
+      content
+    </div>
+  </div>
+</div>
+
+ <script src="http://zeptojs.com/zepto.min.js"></script> 
+ <script src="../build/build.js"></script> 
+ <script>
+   var subpage = require('off-page');
+   var mainPage = subpage.MainPage($('.main-page'));
+   var page1 = subpage.OffPage($('#page1'), mainPage);
+   $(document).delegate('.item', 'tap', function() {
+     page1.slideIn();
+   })
+   .delegate('.bn-back', 'tap', function() {
+     page1.slideOut();
+   });
+ </script>
+</body>
+</html>

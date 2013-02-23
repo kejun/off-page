@@ -5,7 +5,6 @@
 
 ## Installation
 
-    $ component install kejun/off-page
     $ npm install kejun/off-page
     $ grunt 
     $ component build 
