@@ -4,7 +4,7 @@ module.exports = function(grunt) {
       dist: {
         files: {
           'offpage.css': 'offpage.scss',
-          'test/mobile-ui.css': ['mobile-app-ui/*.scss']
+          'test/mobile-ui.css': ['node_modules/mobile-ui-lib/*.scss']
         }
       }
     },
