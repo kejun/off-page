@@ -1,5 +1,5 @@
 function MainPage(node) {
-  var doc = document.body;
+  var doc = $(document.body);
   var docTop = 0;
   return {
     slideOut: function() {
