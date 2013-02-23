@@ -1,0 +1,19 @@
+{
+  "name": "off-page",
+  "repo": "kejun/off-page",
+  "description": "mobi页面所用的子页面滑入/出",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ],
+  "remotes": [
+    "http://localhost:8080/repos/"
+  ],
+  "styles": [
+    "offpage.css"
+  ]
+}

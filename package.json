@@ -1,0 +1,9 @@
+{
+"name": "offpage",
+"version": "0.0.1",
+"dependencies": {
+ "grunt-contrib-sass": "*",
+ "grunt-contrib-jshint": "*",
+ "grunt-contrib-watch": "*"
+}
+}
