@@ -27,7 +27,7 @@ function MainPage(node) {
       _transitionEnd(node, function() {
         setTimeout(function() {
           doc.scrollTop = docTop;
-          doc.removeClass('main-page-before-in');
+          node.removeClass('main-page-before-in');
         }, 10);
         node.removeClass('main-page-out');
         node.show();
