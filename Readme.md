@@ -6,6 +6,7 @@
 ## Installation
 
     $ npm install
+    $ component install
     $ grunt 
     $ component build 
 

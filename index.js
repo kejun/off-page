@@ -1,3 +1,6 @@
+module.exports.OffPage = OffPage;
+module.exports.MainPage = MainPage;
+
 function MainPage(node) {
   var doc = $(document.body);
   var docTop = 0;
@@ -71,7 +74,3 @@ function OffPage(node, related) {
 function _transitionEnd(node, handle) {
   node.unbind('webkitTransitionEnd').bind('webkitTransitionEnd', handle);
 }
-
-
-module.exports.OffPage = OffPage;
-module.exports.MainPage = MainPage;

@@ -4,13 +4,15 @@
   "description": "mobi页面所用的子页面滑入/出",
   "version": "0.0.1",
   "keywords": [],
-  "dependencies": {},
+  "dependencies": {
+    "component/zepto": "*"
+  },
   "development": {},
   "license": "MIT",
   "scripts": [
     "index.js"
   ],
   "styles": [
-    "offpage.scss"
+    "offpage.css"
   ]
 }
