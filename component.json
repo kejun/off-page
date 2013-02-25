@@ -10,10 +10,7 @@
   "scripts": [
     "index.js"
   ],
-  "remotes": [
-    "http://localhost:8080/repos/"
-  ],
   "styles": [
-    "offpage.css"
+    "offpage.scss"
   ]
 }
