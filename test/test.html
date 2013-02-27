@@ -39,9 +39,9 @@
   </div>
 </div>
 
- <script src="http://zeptojs.com/zepto.min.js"></script> 
  <script src="../build/build.js"></script> 
  <script>
+   var $ = require('kejun-zepto');
    var subpage = require('off-page');
    var mainPage = subpage.MainPage($('.main-page'));
    var page1 = subpage.OffPage($('#page1'), mainPage);
