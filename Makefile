@@ -1,5 +1,8 @@
-install: 
+default: 
 	npm install
+	component install
+	grunt
+	component build 
 
 build: components index.js offpage.css
 	@component build --dev
